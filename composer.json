@@ -1,6 +1,8 @@
 {
     "name": "orakaro/misty-mountains-cold",
-    "description": "Test Tiny IoC module",
+    "description": "An 1-minutes sample of using Inversion Of Control (IoC) for testing evil static methods in PHP",
+    "keywords": ["IoC", "Inversion of Control", "Dependency Injection", "Facades Design Pattern"],
+    "homepage": "https://github.com/DTVD/Misty-Mountains-Cold",
     "license": "MIT",
     "authors": [
         {
