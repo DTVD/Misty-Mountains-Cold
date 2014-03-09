@@ -1,10 +1,17 @@
-Misty-Mountains-Cold
-====================
+###Misty-Mountains-Cold
 
-An 1-minutes sample of using Inversion Of Control (IoC) for testing evil static methods in PHP 
+This is an one-minutes sample of using Inversion Of Control (IoC) for testing evil static methods in PHP.
 
-Quick start
-====================
+The main package is available through [Composer Packagist](https://packagist.org/packages/orakaro/ioc)
+ and can be include in your own ```composer.json``` like
+```json
+"require": {
+    "orakaro/ioc": "dev-master"
+}
+```
+
+###Quick start
+
 Assume that you have composer installed. To get things work, follow simple steps below
 
 * Install dependencies
@@ -34,3 +41,5 @@ composer dump-autoload
 ...
 vendor/bin/phpunit test/TrilogyTest.php
 ```
+
+
