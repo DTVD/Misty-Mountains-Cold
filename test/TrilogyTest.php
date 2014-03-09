@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 use orakaro\IoC\core\IoC;
-use config\facade\Touchy;
+use config\facade\IoCRegister;
 
 class TrilogyTest extends PHPUnit_Framework_TestCase{
   /**
@@ -11,7 +11,7 @@ class TrilogyTest extends PHPUnit_Framework_TestCase{
   public function setUp()
   {
     /* Wake up lazy loading */
-    Touchy::wakeMeUp();
+    IoCRegister::registerAll();
     /* Redefined your desirable mock */
     IoC::register('Gandalf_knownAs', function($name){
       return 'Radagast the Brown';
