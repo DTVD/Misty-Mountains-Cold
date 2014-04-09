@@ -50,3 +50,7 @@ Misty Mountains Cold in The Hobbit trilogy :)
 " target="_blank"><img src="http://img.youtube.com/vi/P8ymgFyzbDo/0.jpg" 
 alt="Misty-Mountains-Cold" width="480" height="360" border="10" /></a>
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/DTVD/misty-mountains-cold/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
